@@ -1,0 +1,93 @@
+body {
+    color:  hsl(0, 0%, 15%);
+    background-position:center top;
+    background-size: 100%;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#quote {
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#weather {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+h2 {
+    display: flex;
+    font-size: 30px;
+    align-content: center;
+    justify-content: center;
+    padding: 30px 10px 200px 10px ;
+}
+
+#login-form {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+h1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 20px 20px;
+    font-size: 50px;
+}
+
+input {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    background: none;
+    border-bottom: 3px white solid;
+}
+
+input::placeholder {
+
+    color: teal;
+    padding: 30px;
+}
+
+button {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    background: none;
+    color: teal;
+}
+
+#todo-form {
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#todo-list {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
